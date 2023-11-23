@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header { 
+    max-width: 1000px; 
+    margin: auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+.header-logo { 
+    display: inline-flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+
+.header-list  { 
+    text-decoration: none; 
+} 
+
+.header-list a:last-child { 
+    width: 199px; 
+    height: 49px; 
+    border-radius: 10px; 
+    background: #F60; 
+    text-decoration: none; 
+}
